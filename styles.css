@@ -9,7 +9,7 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-/*#899CA0*/
+/**/
 /*#1C2B32*/
 
 
@@ -22,13 +22,21 @@ Table of Contents:
     padding: 0;
     margin: 0;
     font-family: poppins, sans-serif;
-    color: ;
+    color: #1C2B32;
+    background-color:
+
 }
+
+h2 {
+    padding-left: 330px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
 
 
 /*////////////////////////
@@ -36,21 +44,174 @@ Table of Contents:
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
+.domein-head {
+    font-size: 50px;
+}
 
+
+.header {
+
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-color: #1C2B32;
+    background-image: url("../frontend-html-css-domeinshop/assets/images/mountains.jpg");
+    background-size: cover;
+
+}
+.register {
+    color: #899CA0;
+    margin: 20px;
+}
+
+
+
+
+#message-field {
+    background: transparent;
+    border: 2px #1C2B32;
+
+}
+
+.form-head {
+    border: 4px ;
+    border-radius: 2px ;
+    padding: 5px;
+    color: white;
+    margin-right: 370px;
+    margin-bottom: 5px;
+
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    max-width: 1000px;
+}
 
+.responses {
+
+    padding-left: 250px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.response1, .response2 {
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 5px 5px;
+
+}
+
+.jane-doe, .john-smith {
+    padding-left: 100px;
+    margin-bottom: 20px;
+    vertical-align: ;
+
+
+}
+
+.jane-picture, .john-picture {
+    margin-top: 20px;
+}
+
+.quote {
+
+
+}
+
+.quote::before {
+    content: open-quote;
+    font-size: 4rem
+
+}
+.quote::after {
+    content: close-quote;
+
+
+}
+.quote1::before {
+    content: open-quote;
+    font-size: 4rem;
+
+
+
+}
+
+}
 
 /*///////////// 3.3 Support /////////////*/
+.section2 {
+    margin: ;
+}
 
+.head-ready {
+    padding-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.support {
+    margin: 20px;
+
+}
+
+.button2 {
+    padding: 20px;
+
+
+}
+
+
+
+button {
+    border: 2px;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #1C2B32;
+    color: white;
+
+
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+summary:hover{
+    cursor: pointer;
 
+
+
+}
+
+details > p {
+    background-color: #899CA0;
+    border: 2px;
+    border-radius: 12px;
+    padding: 5px;
+
+
+}
 
 /*///////////// 3.5 Footer /////////////*/
+footer {
+    background-color: #1C2B32;
+
+    padding: 20px;
+
+}
+
+footer > p {
+    color: white;
+    padding-left: 430px;
+    font-size: smaller;
+}
